@@ -1,10 +1,11 @@
+
 //css_nuget NLog
 using System;
 
 public class ScriptLogging
 {
     private string _scriptEngineName = "Script Engine Logger";
-    
+   
     public void SetLogName(string name)
     {
         _scriptEngineName = name;
